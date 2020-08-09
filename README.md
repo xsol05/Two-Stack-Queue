@@ -2,7 +2,7 @@
 _Using two stacks to implement a queue_
 
 ### Background
-The basic idea is that a queue can be represented by a pair of stacks called (say) left and right. To insert into the queue they represent, you push onto the left stack. To remove from the queue, you pop from the right stack unless the right stack is empty in which case you first transfer, by pop and push operations, the entire left stack into the right stack.
+The basic idea is to illustrate that a queue can be represented by a pair of stacks called (say) left and right. To insert into the queue they represent, you push onto the left stack. To remove from the queue, you pop from the right stack unless the right stack is empty in which case you first transfer, by pop and push operations, the entire left stack into the right stack.
 
 ### Details
 **- TwoStackQueue**: This class implements the Queue interface. It also has an additional debug() method which concatenates the results of calling the toString() methods of the left and right stacks, and returns that string. This will verify that the stacks are being used correctly.  
